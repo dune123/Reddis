@@ -1,15 +1,12 @@
 {
-  "name": "reddis",
+  "name": "build-your-own-redis-vanilla-nodejs",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "DEBUG=util node server.js"
+    "start": "node --watch src/server.js",
+    "test": "node tests/server.test.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "telnet": "^0.0.1"
-  }
+  "keywords": [],
+  "author": "vivek bharatha",
+  "license": "MIT"
 }
